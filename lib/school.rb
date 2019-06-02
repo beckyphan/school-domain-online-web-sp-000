@@ -20,6 +20,12 @@ class School
   end
   
   def sort 
-  
+    @roster.each do |grade|
+      puts grade
+      grade.each do |student|
+        puts student
+        binding.pry
+      end 
+    end 
   end
 end 
