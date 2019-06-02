@@ -20,10 +20,8 @@ class School
   end
   
   def sort 
-    @roster.each do |grade|
-      puts grade
-      grade.sort
-      end 
-    end 
+    @roster.each do |grade, student_arr|
+      student_arr.sort
+    end
   end
 end 
