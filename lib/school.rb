@@ -24,7 +24,6 @@ class School
       puts grade
       grade.each do |student|
         puts student
-      binding.pry
       end 
     end 
   end
